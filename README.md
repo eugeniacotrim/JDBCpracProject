@@ -11,3 +11,5 @@ Different methods were created to: load the driver, create the connection, creat
 
 - Connection class
 All the methods from the DB class were called here through a new instance of the class. The input data was provided for each employee one by one through a new instance of the BakeryEmp class, along with the Setter methods for each variable/column name.
+
+Once all the employees were created through JDBC, the query select * from bakeryEmp on MySQL server displayed all the new inputted data.
