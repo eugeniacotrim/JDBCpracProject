@@ -22,7 +22,7 @@ public class DB {
 	public void createConnection() {
 		String url = "jdbc:mysql://localhost:3306/pracproject";
 		String username = "root";
-		String password = "416EaL908!";
+		String password = "";
 		
 		try {
 			conn = DriverManager.getConnection(url, username, password);
